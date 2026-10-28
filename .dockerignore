@@ -72,3 +72,6 @@ temp/
 
 # Helm chart — deployment artifact, not a build input
 charts/
+
+# Bulk sender lives in this repo but is not part of the OpenWA image
+wa-bulk-sender/

@@ -1,0 +1,18 @@
+# Optional extra versions of message.txt. They are rotated: message.txt, variant 1, variant 2, message.txt ...
+# Separate versions with a line containing only ---   Lines starting with # are ignored.
+# Same placeholders as message.txt: {name} and any column from your contacts.
+# "Reply STOP to unsubscribe" is added automatically.
+Hello {name},
+
+Good news from Your Travel Company: bookings for our winter holiday packages have opened, and early-bird rates apply to the first 50 bookings.
+
+Would you like the itinerary and prices? Just reply YES.
+---
+Dear {name},
+
+Planning a winter trip? Our new holiday packages are live now, with special early-bird pricing for the first 50 travellers.
+
+Reply YES to get the details on WhatsApp.
+
+Warm regards,
+Your Travel Company

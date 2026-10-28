@@ -1,0 +1,23 @@
+{
+  "name": "wa-bulk-sender",
+  "version": "2.0.0",
+  "description": "Paced WhatsApp messaging to opted-in customers through a self-hosted OpenWA gateway",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dry-run": "node index.js --dry-run",
+    "test-send": "node index.js --test",
+    "start": "node index.js",
+    "retry-failed": "node index.js --retry-failed",
+    "optout": "node index.js --optout",
+    "webhook": "node src/webhook.js",
+    "webhook:register": "node src/webhook.js --register"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5"
+  }
+}
